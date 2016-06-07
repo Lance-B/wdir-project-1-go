@@ -1,0 +1,7 @@
+Go game board grid 
+place functin for pieces alternating between each player
+Identify areas of the board that are a certain player's territory (winning points)
+total territory/winning pieces for display
+identify player territories
+Compare totals at the end of the game to show a winner
+Button for game reset
