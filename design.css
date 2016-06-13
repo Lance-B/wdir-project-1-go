@@ -1,0 +1,117 @@
+body {
+	margin: 0 auto;
+}
+#gameTable {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: black;
+}
+#gameBoard {
+	width: 50%;
+	padding-bottom: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	position: absolute;
+	background: white;
+}
+#grid {
+	margin: 10%;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	padding: 0;
+}
+.cell {
+	border-left: 1px solid black;
+	margin-left: -1px;
+	border-top: 1px solid black;
+	margin-top: -1px;
+	float: left;
+	width: 12.5%;
+	height: 12.5%;
+}
+.right {
+	border-right: 1px solid black;
+	margin-right: -1px;
+	border-left: 1px solid black;
+	margin-left: -1px;
+	border-top: 1px solid black;
+	margin-top: -1px;
+	float: left;
+	width: 12.5%;
+	height: 12.5%;
+}
+#rightBottom {
+	border-bottom: 1px solid black;
+	margin-bottom: -1px;
+	border-right: 1px solid black;
+	margin-right: -1px;
+	border-left: 1px solid black;
+	margin-left: -1px;
+	border-top: 1px solid black;
+	margin-top: -1px;
+	float: left;
+	width: 12.5%;
+	height: 12.5%;
+}
+.bottom {
+	border-left: 1px solid black;
+	margin-left: -1px;
+	border-top: 1px solid black;
+	margin-top: -1px;
+	border-bottom: 1px solid black;
+	margin-bottom: -1px;
+	float: left;
+	width: 12.5%;
+	height: 12.5%;
+}
+.dot {
+	background: black;
+	border-width: 0px;
+	border-radius: 50%;
+	width: 2%;
+	height: 2%;
+	position: absolute;
+	margin-left: -1%;
+	margin-top: -1%;
+}
+#middle {
+	width: 4%;
+	height: 4%;
+	top: 50%;
+	left: 50%;
+	margin-left: -2%;
+	margin-top: -2%;
+}
+#topLeft {
+	top: 25%;
+	left: 25%;
+}
+#topRight {
+	top: 25%;
+	left: 75%;
+}
+#bottomLeft {
+	top: 75%;
+	left: 25%;
+}
+#bottomRight {
+	top: 75%;
+	left: 75%;
+}
+
+#clickBoxes {
+	margin: 5%;
+	position: absolute;
+	width: 90%;
+	height: 90%;
+}
+.box {
+	position: relative;
+	margin: 0;
+	float: left;
+	width: 11.1%;
+	height: 11.1%;
+	border: none;
+}

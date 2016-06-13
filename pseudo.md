@@ -9,3 +9,9 @@ Liberty: empty point next to a stone
     When a point is clicked, places a stone (starting with black then the white player) on the board <br>
     Pass button to skip turn <br>
     - When a piece is placed in the last liberty of an opponent's piece(s), the opponent's piece(s) are removed  <br>
+
+
+
+
+
+changes: container within container for multiple borders and the grid lines?
