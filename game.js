@@ -84,5 +84,3 @@ var game = function() {
         window.alert(winnerColor());
         };
 };
-points();
-game();
